@@ -1,0 +1,16 @@
+using System;
+
+public class HelloWorld
+{
+    public static void Main(string[] args)
+    {
+       int i=10,j=5;
+       Console.WriteLine("Arthematic Operations");
+       Console.WriteLine(i+j);
+       Console.WriteLine(i-j);
+       Console.WriteLine(i*j);
+       Console.WriteLine(i/j);
+       Console.WriteLine(i%j);
+}
+
+}
