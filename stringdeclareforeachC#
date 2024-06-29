@@ -1,0 +1,13 @@
+using System;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+    int[] myarray=new int[5] {100,200,300,400,500};
+    foreach(int items in myarray )
+    {
+        Console.WriteLine(items);
+    }
+    }
+}
