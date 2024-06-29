@@ -1,0 +1,27 @@
+using System;
+
+namespace HelloWorld
+{
+  class Program
+  {
+    static void Main(string[] args)
+    {
+      string str="wipro 123";
+      int charactercount=0;
+      int numbercount=0;
+      foreach(char c in str)
+      {
+      if(char.IsDigit(c))
+      {
+      numbercount++;
+      }
+      else
+      {
+      charactercount++;
+      }
+      }
+      Console.WriteLine($"Number of character:{charactercount}");
+       Console.WriteLine($"Number of number:{numbercount}");
+    }
+  }
+}
